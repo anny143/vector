@@ -21,7 +21,6 @@ export const ContextProvider = (props) => {
 
     const response = await run(input);
 
-    // Split the response by new lines
     let responseArray = response.split("**");
 
     let newResponse = "";
